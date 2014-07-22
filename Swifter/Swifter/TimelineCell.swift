@@ -28,8 +28,8 @@ class TimelineCell: UITableViewCell {
         
         profileImageView = UIImageView(frame: CGRectZero)
         self.contentView.addSubview(profileImageView)
-        self.backgroundView = makeBlurView()
-        self.backgroundColor = UIColor.clearColor()
+        // self.backgroundView = makeBlurView()
+        // self.backgroundColor = UIColor.clearColor()
     }
     
     override func layoutSubviews() {
@@ -49,9 +49,9 @@ class TimelineCell: UITableViewCell {
     }
     
     // CellにBlur(磨りガラス効果)をかける
-    func makeBlurView() -> UIVisualEffectView {
-        let blurEffectView = UIVisualEffectView(effect: UIBlurEffect(style: .Light))
-        blurEffectView.frame = self.bounds
-        return blurEffectView
-    }
+//    func makeBlurView() -> UIVisualEffectView {
+//        let blurEffectView = UIVisualEffectView(effect: UIBlurEffect(style: .Light))
+//        blurEffectView.frame = self.bounds
+//        return blurEffectView
+//    }
 }

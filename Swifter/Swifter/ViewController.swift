@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var profile_image : UIImageView
     @IBOutlet var lbl_username : UILabel
+    
     var identifier: String = ""
     
     override func viewDidLoad() {
