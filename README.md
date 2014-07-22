@@ -1,5 +1,5 @@
 Swifter
 =======
 
-iOS TwitterClient for Swift
+iOS TwitterClient for Swift  
 Swiftで書いたiOSのツイッタークライアントです
